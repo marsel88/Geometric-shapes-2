@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -132,9 +133,9 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.panel1.Location = new System.Drawing.Point(106, 53);
+            this.panel1.Location = new System.Drawing.Point(63, 46);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(354, 343);
+            this.panel1.Size = new System.Drawing.Size(427, 392);
             this.panel1.TabIndex = 10;
             // 
             // button2
@@ -151,7 +152,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(780, 475);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label4);
